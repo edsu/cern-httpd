@@ -176,7 +176,7 @@ PUBLIC void HTFileInit NOARGS
     HTAddType(".zip",	 "application/octet-stream",	"binary", 1.0);	/* PKZIP		*/
     HTAddType(".tar",    "application/octet-stream",	"binary", 1.0);	/* 4.3BSD tar		*/
     HTAddType(".ustar",  "application/octet-stream",	"binary", 1.0);	/* POSIX tar		*/
-
+    HTAddType(".css",    "text/css",                    "8bit", 1.0);   /* CSS                  */
     HTAddType("*.*",     "www/unknown",			"binary", 0.2); /* Try to guess		*/
     HTAddType("*",       "www/unknown",			"binary", 0.2); /* Try to guess		*/
 
